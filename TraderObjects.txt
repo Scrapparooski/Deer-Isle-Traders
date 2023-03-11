@@ -1,0 +1,325 @@
+// ------------------------------------------------------ Trader Markers -------------------------------------------------------
+
+// Stonington:
+
+<TraderMarker> 			0 									// Trader ID
+<TraderMarkerPosition>	6199.5,		33.1,		2382.6	 	// Coordinate X, 	Coordinate Y, 	Coordinate Z
+<TraderMarkerSafezone>	80									// Safezone Radius
+
+<TraderMarker> 			1
+<TraderMarkerPosition>	6186.4,		33.1,		2365.5
+<TraderMarkerSafezone>	80
+
+<TraderMarker> 			2
+<TraderMarkerPosition>	6186.5,		33.1,		2385.7
+<TraderMarkerSafezone>	80
+
+<TraderMarker> 			3
+<TraderMarkerPosition>	6192,		32.1,		2385.7
+<TraderMarkerSafezone>	80
+
+<TraderMarker> 			4
+<TraderMarkerPosition>	6197.3,		33.1,		2385.7
+<TraderMarkerSafezone>	30
+
+<TraderMarker> 			8
+<TraderMarkerPosition>	6191.7,		33.1,		2365.5
+<TraderMarkerSafezone>	80
+
+<TraderMarker> 			9
+<TraderMarkerPosition>	6197.4, 	33.1,     	2365.5
+<TraderMarkerSafezone>	80
+
+<TraderMarker> 			12
+<TraderMarkerPosition>	6181,		33.1,		2365.5
+<TraderMarkerSafezone>	30
+
+<TraderMarker> 			5
+<TraderMarkerPosition>	6180.5,		32.54,		2393.1
+<TraderMarkerSafezone>	30
+<VehicleSpawn>			6176,		32,			2403.5		// Vehicle Spawnpoint for Trader; 	Coordinate X, 	Coordinate Y, 	Coordinate Z (optional)
+<VehicleSpawnOri>		90,			0,			0			// Vehicle Spawnpoint Orientation; 	Yaw, 			Pitch, 			Roll	 	 (optional)
+
+// Portland:
+
+<TraderMarker> 			0 									// Trader ID
+<TraderMarkerPosition>	5541.3,    	4.845,    	15459.7	 	// Coordinate X, 	Coordinate Y, 	Coordinate Z
+<TraderMarkerSafezone>	80									// Safezone Radius
+
+<TraderMarker> 			1
+<TraderMarkerPosition>	5547.2,		4.845,		15454.8
+<TraderMarkerSafezone>	80
+
+<TraderMarker> 			2
+<TraderMarkerPosition>	5562.1,		4.845,		15478.3
+<TraderMarkerSafezone>	80
+
+<TraderMarker> 			3
+<TraderMarkerPosition>	5564.2,		3.845,		15478.3
+<TraderMarkerSafezone>	80
+
+<TraderMarker> 			4
+<TraderMarkerPosition>	5572.3,		4.845,		15472.8
+<TraderMarkerSafezone>	30
+
+<TraderMarker> 			8
+<TraderMarkerPosition>	5541.3,		4.845,		15454.6
+<TraderMarkerSafezone>	80
+
+<TraderMarker> 			9
+<TraderMarkerPosition>	5546.8,    	4.845,	    15447.3
+<TraderMarkerSafezone>	80
+
+<TraderMarker> 			12
+<TraderMarkerPosition>	5541.3,		4.845,		15451.4
+<TraderMarkerSafezone>	30
+
+<TraderMarker> 			5
+<TraderMarkerPosition>	5590.2,		3.7,		15454.9
+<TraderMarkerSafezone>	30
+<VehicleSpawn>			5598,		3.4,		15455		// Vehicle Spawnpoint for Trader; 	Coordinate X, 	Coordinate Y, 	Coordinate Z (optional)
+<VehicleSpawnOri>		180,		0,			0			// Vehicle Spawnpoint Orientation; 	Yaw, 			Pitch, 			Roll	 	 (optional)
+
+// Black Market:
+
+<TraderMarker> 			6
+<TraderMarkerPosition>	13121.1,   	21.85,    	6182.4
+<TraderMarkerSafezone>	.1
+
+<TraderMarker> 			7
+<TraderMarkerPosition>	13121.1,    21.85,    	6187.9
+<TraderMarkerSafezone>	.1
+
+<TraderMarker> 			11
+<TraderMarkerPosition>	13117.6,   	21.85,    	6191.4
+<TraderMarkerSafezone>	.1
+
+<TraderMarker> 			13
+<TraderMarkerPosition>	13113.1,   	21.85,    	6191.4
+<TraderMarkerSafezone>	.1
+
+<TraderMarker> 			10
+<TraderMarkerPosition>	13103.4,	21.85,		6187.6
+<TraderMarkerSafezone>	.1
+
+<TraderMarker> 			3
+<TraderMarkerPosition>	13107.3,	21.85,		6191.5
+<TraderMarkerSafezone>	.1
+
+<TraderMarker> 			14
+<TraderMarkerPosition>	13025.6,	1.61,		6216.35
+<TraderMarkerSafezone>	.1
+<VehicleSpawn>			13014.6,	1.6,		6216.5		// Vehicle Spawnpoint for Trader; 	Coordinate X, 	Coordinate Y, 	Coordinate Z (optional)
+<VehicleSpawnOri>		-90,		0,			0			// Vehicle Spawnpoint Orientation; 	Yaw, 			Pitch, 			Roll	 	 (optional)
+
+// ------------------------------------------------------ Objects to Spawn ------------------------------------------------------
+	
+// Stonington:
+
+<Object> 			ZT_Vending_Drugs_rusty
+<ObjectPosition>	6199.5,		33.1,		2382.6
+<ObjectOrientation>	90,			0,			0
+<ObjectAttachment>	NPC_DUMMY
+
+<Object> 			ZT_Vending_Tools_rusty
+<ObjectPosition>	6186.4,		33.1,		2365.5
+<ObjectOrientation>	180,		0,			0
+<ObjectAttachment>	NPC_DUMMY
+
+<Object> 			ZT_Vending_Weapons_rusty
+<ObjectPosition>	6186.5,		33.1,		2385.7
+<ObjectOrientation>	0,			0,			0
+<ObjectAttachment>	NPC_DUMMY
+
+<Object> 			ZT_Vending_Ammunition_rusty
+<ObjectPosition>	6192,		32.1,		2385.7
+<ObjectOrientation>	180,		0,			0
+<ObjectAttachment>	NPC_DUMMY
+
+<Object> 			ZT_Vending_Clothing_rusty
+<ObjectPosition>	6197.3,		33.1,		2385.7
+<ObjectOrientation>	0,			0,			0
+<ObjectAttachment>	NPC_DUMMY
+
+<Object> 			ZT_Vending_BaseStuff_rusty
+<ObjectPosition>	6191.7,		33.1,		2365.5
+<ObjectOrientation>	180,		0,			0
+<ObjectAttachment>	NPC_DUMMY
+
+<Object> 			ZT_Vending_Hunting_rusty			// Classname
+<ObjectPosition>	6197.4, 	33.1,     	2365.5		// Coordinate X, 	Coordinate Y, 	Coordinate Z
+<ObjectOrientation>	180,		0,			0			// Yaw, 			Pitch, 			Roll
+<ObjectAttachment>	NPC_DUMMY
+
+<Object> 			ZT_Vending_Event_rusty
+<ObjectPosition>	6181,		33.1,		2365.5
+<ObjectOrientation>	180,		0,			0
+<ObjectAttachment>	NPC_DUMMY
+
+<Object> 			ZT_Vending_Vehicles_rusty
+<ObjectPosition>	6180.5,		32.54,		2393.1
+<ObjectOrientation>	90,			0,			0
+<ObjectAttachment>	NPC_DUMMY
+ 
+<Object>			Land_RoadCone
+<ObjectPosition>	6171,		31.4,		2400
+<ObjectOrientation>	0,			0,			0
+
+<Object>			Land_RoadCone
+<ObjectPosition>	6171,		31.4,		2407
+<ObjectOrientation>	0,			0,			0
+
+<Object>			Land_RoadCone
+<ObjectPosition>	6181,		31.4,		2400
+<ObjectOrientation>	0,			0,			0
+
+<Object>			Land_RoadCone
+<ObjectPosition>	6181,		31.4,		2407
+<ObjectOrientation>	0,			0,			0
+
+<Object>			BarrelHoles_Red
+<ObjectPosition>	6193,		32,			2376
+<ObjectOrientation>	0,			0,			0
+
+// Portland:
+
+<Object> 			ZT_Vending_Drugs_rusty
+<ObjectPosition>	5541.3,    	4.845,    	15459.7
+<ObjectOrientation>	-90,		0,			0
+<ObjectAttachment>	NPC_DUMMY
+
+<Object> 			ZT_Vending_Tools_rusty
+<ObjectPosition>	5547.2,		4.845,		15454.8
+<ObjectOrientation>	90,			0,			0
+<ObjectAttachment>	NPC_DUMMY
+
+<Object> 			ZT_Vending_Weapons_rusty
+<ObjectPosition>	5562.1,		4.845,		15478.3
+<ObjectOrientation>	0,			0,			0
+<ObjectAttachment>	NPC_DUMMY
+
+<Object> 			ZT_Vending_Ammunition_rusty
+<ObjectPosition>	5564.2,		3.845,		15478.3
+<ObjectOrientation>	180,		0,			0
+<ObjectAttachment>	NPC_DUMMY
+
+<Object> 			ZT_Vending_Clothing_rusty
+<ObjectPosition>	5572.3,		4.845,		15472.8
+<ObjectOrientation>	135,		0,			0
+<ObjectAttachment>	NPC_DUMMY
+
+<Object> 			ZT_Vending_BaseStuff_rusty
+<ObjectPosition>	5541.3,		4.845,		15454.6
+<ObjectOrientation>	-90,		0,			0
+<ObjectAttachment>	NPC_DUMMY
+
+<Object> 			ZT_Vending_Hunting_rusty			// Classname
+<ObjectPosition>	5546.8,    	4.845,	    15447.3		// Coordinate X, 	Coordinate Y, 	Coordinate Z
+<ObjectOrientation>	135,		0,			0			// Yaw, 			Pitch, 			Roll
+<ObjectAttachment>	NPC_DUMMY
+
+<Object> 			ZT_Vending_Event_rusty
+<ObjectPosition>	5541.3,		4.845,		15451.4
+<ObjectOrientation>	-90,		0,			0
+<ObjectAttachment>	NPC_DUMMY
+
+<Object> 			ZT_Vending_Vehicles_rusty
+<ObjectPosition>	5590.2,		3.7,		15454.9
+<ObjectOrientation>	90,			0,			0
+<ObjectAttachment>	NPC_DUMMY
+ 
+<Object>			Land_RoadCone
+<ObjectPosition>	5594.5,		2.5,		15450
+<ObjectOrientation>	0,			0,			0
+
+<Object>			Land_RoadCone
+<ObjectPosition>	5594.5,		2.5,		15460
+<ObjectOrientation>	0,			0,			0
+
+<Object>			Land_RoadCone
+<ObjectPosition>	5601.5,		2.5,		15450
+<ObjectOrientation>	0,			0,			0
+
+<Object>			Land_RoadCone
+<ObjectPosition>	5601.5,		2.5,		15460
+<ObjectOrientation>	0,			0,			0
+
+<Object>			BarrelHoles_Red
+<ObjectPosition>	5578.42,	2.69,		15441.1
+<ObjectOrientation>	0,			0,			0
+
+// Black Market:
+
+<Object> 			SurvivorM_Niki
+<ObjectPosition>	13121.1,   	21.85,    	6182.4
+<ObjectOrientation>	-90,		0,			0
+<ObjectAttachment>	TTC_M1Garand
+<ObjectAttachment>	Diesel_TacticalGloves_BlkGrey 
+<ObjectAttachment>	Diesel_Beaniehat_Black
+<ObjectAttachment>	Diesel_Balaclava3Holes_MericaSkull
+<ObjectAttachment>	Diesel_GorkaJacket_DrkGreen
+<ObjectAttachment>	Diesel_GorkaPants_DrkGreen
+<ObjectAttachment>	Diesel_HikingLow_BlkGrey
+
+<Object> 			SurvivorF_Maria
+<ObjectPosition>	13121.1,    21.85,    	6187.9
+<ObjectOrientation>	-90,		0,			0
+<ObjectAttachment>	Diesel_DFAL_Reaper2
+<ObjectAttachment>	Diesel_FAL_Bttstck_Reaper2
+<ObjectAttachment>	Diesel_HuntingOptic_Reaper2
+<ObjectAttachment>	Diesel_BallisticVest_Reaper2
+<ObjectAttachment>	Diesel_TacticalGloves_Reaper2
+<ObjectAttachment>	Diesel_Mich2001_Reaper2
+<ObjectAttachment>	Diesel_Jacket_Reaper2
+<ObjectAttachment>	Diesel_Pants_Reaper2
+<ObjectAttachment>	Diesel_MilitaryBoots_Reaper2
+
+<Object> 			SurvivorM_Hassan
+<ObjectPosition>	13117.6,   	21.85,    	6191.4
+<ObjectOrientation>	180,		0,			0
+<ObjectAttachment>	TWP_ScarDragon
+<ObjectAttachment>	TWP_ScarDragon_mag_50Rnd
+<ObjectAttachment>	TWP_Optic_reddot
+<ObjectAttachment>	TacticalGloves_Green
+<ObjectAttachment>	RadarCap_Brown
+<ObjectAttachment>	BandanaMask_CamoPattern
+<ObjectAttachment>	HuntingVest
+<ObjectAttachment>	HuntingJacket_Autumn
+<ObjectAttachment>	HunterPants_Autumn
+<ObjectAttachment>	MilitaryBoots_Black
+<ObjectAttachment>	simplebackpack_blue_mung
+
+<Object> 			SurvivorF_Frida
+<ObjectPosition>	13113.1,   	21.85,    	6191.4
+<ObjectOrientation>	-180,		0,			0
+<ObjectAttachment>	SKMilCoyBagNAVYWORK
+<ObjectAttachment>	Diesel_MKII
+<ObjectAttachment>	Diesel_TacticalGloves_BlueiceSkin
+<ObjectAttachment>	SKMilGorHelmNAVYWORK
+<ObjectAttachment>	SKMilBalaclavaNAVYWORK
+<ObjectAttachment>	SKMilPlatecarrierNAVY
+<ObjectAttachment>	SKMilGorVestNAVYWORK
+<ObjectAttachment>	SKMilGorNAVYWORK
+<ObjectAttachment>	SKMilBootsNAVY
+
+<Object> 			ZT_Vending_glow_militaryclothing
+<ObjectPosition>	13103.4,	21.85,		6187.6
+<ObjectOrientation>	90,		0,			0
+<ObjectAttachment>	NPC_DUMMY
+
+<Object> 			ZT_Vending_Ammunition_rusty
+<ObjectPosition>	13107.3,	21.85,		6191.5
+<ObjectOrientation>	180,		0,			0
+<ObjectAttachment>	NPC_DUMMY
+
+<Object> 			ZT_Vending_Glow_Boats_rusty
+<ObjectPosition>	13025.6,	1.61,		6216.35
+<ObjectOrientation>	-90,		0,			0
+<ObjectAttachment>	NPC_DUMMY
+
+<Object>			BarrelHoles_Red
+<ObjectPosition>	13115.1,	21.85,		6186.3
+<ObjectOrientation>	0,			0,			0
+
+//<OpenFile> FileName.txt								// Links to another File; Must be right above <FileEnd>!
+<FileEnd>												// This has to be on the End of this File and is very importand!
