@@ -3,8 +3,8 @@
 This file contains two vanilla and one black market trader designed for and used by Noobs Only Deer Isle.
 
 This repository contains:
-1. The .dze file so you can export and include these traders in any format you prefer.
-2. A .txt file that that includes trader object coordinates for your convenience. My server uses the Trader mod from Dr. Jones. Whichever trader mod you use, the coordinates will probably be helpful.
+1. The DI Traders v2-2.dze and v2-3.dze file so you can export and include these traders in any format you prefer. Both versions accomodate a boat trader, but v2-2 specifically accomodates the Redfalcon boat mod.
+2. A TraderObjects.txt file that that includes trader object coordinates for your convenience. My server uses the Trader mod from Dr. Jones. Whichever trader mod you use, the coordinates will probably be helpful.
 3. A .png showing the general coordinates of a building that will need to removed from your mapgroupos.xml.
 
 Mods that went into this design include ArrakisTraderSigns, Trader by Dr. Jones, ZT Vending Machine, Advanced Banking, and MuchStuffPack. The .dze and .txt reference or use items from those mods but are not required by you.
