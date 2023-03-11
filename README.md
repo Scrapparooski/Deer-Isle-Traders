@@ -1,6 +1,8 @@
 # Deer-Isle-Traders
 
-This file contains two vanilla and one black market trader designed for and used by Noobs Only Deer Isle.
+This file contains two vanilla and one black market trader designed for and used by NoobsOnly Deer Isle.
+
+The trader locations are northern Stonington (between the castle and industrial works), Portland (extreme northern end), and Rotten Island. On our servers, Stonington and Portland were the vanilla traders with Rotten Island as our Black Market.
 
 This repository contains:
 1. The DI Traders v2-2.dze and v2-3.dze file so you can export and include these traders in any format you prefer. Both versions accomodate a boat trader, but v2-2 specifically accomodates the Redfalcon boat mod.
